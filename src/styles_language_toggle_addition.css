@@ -1,0 +1,39 @@
+
+/* Language switcher */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--slate-200);
+  border-radius: 10px;
+  background: white;
+}
+
+.language-toggle button {
+  border: 0;
+  background: transparent;
+  color: var(--slate-500);
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 7px 9px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.language-toggle button.active {
+  background: var(--blue);
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .language-toggle {
+    display: none;
+  }
+}
