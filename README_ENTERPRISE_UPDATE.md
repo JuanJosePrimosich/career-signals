@@ -21,3 +21,4 @@ git push
 ```
 
 Vercel should redeploy automatically.
+Ready
